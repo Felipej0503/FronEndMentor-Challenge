@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+    line-height: 25px;
+    
+}
+h1 { 
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 36px;
+    color: hsl(0, 0%, 95%);
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.container button {
+    position: absolute;
+    margin-top: 90px;
+}
+#sedansSection button {
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%) ;
+    padding: 15px 35px 15px 35px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    border-radius: 30px;
+}
+#sedansSection button:hover {
+    border: 2.5px solid hsl(0, 0%, 95%);
+    background-color:hsl(31, 77%, 52%) ;
+    color: hsl(0, 0%, 95%);
+    padding: 12.5px 32.5px 12.5px 32.5px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    border-radius: 30px;
+}
+#suvSection button {
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%) ;
+    padding: 15px 35px 15px 35px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    border-radius: 30px;
+}
+#suvSection button:hover {
+    border: 2.5px solid hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%) ;
+    padding: 12.5px 32.5px 12.5px 32.5px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    border-radius: 30px;
+}
+#luxurySection button {
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    padding: 15px 35px 15px 35px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    border-radius: 30px;
+}
+#luxurySection button:hover {
+
+    border: 2.5px solid hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%) ;
+    padding: 12.5px 32.5px 12.5px 32.5px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    border-radius: 30px;
+}
+
+#sedansSection { 
+    background-color: hsl(31, 77%, 52%);
+    padding: 20px 80px 200px 40px;
+    border-radius: 20px 0 0 20px;
+}
+#suvSection { 
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px 80px 200px 40px;
+}
+#luxurySection { 
+    background-color: hsl(179, 100%, 13%);
+    padding: 20px 80px 200px 40px;
+    border-radius: 0 20px 20px 0;
+}
